@@ -23,14 +23,20 @@ ch.setFormatter(formatter)
 # add ch to logger
 logger.addHandler(ch)
 
+###############################################################################
+# open /dev/null to redirect subproces stdout/stderr
+###############################################################################
 try:
     from subprocess import DEVNULL, DEVERR # py3k
 except ImportError:
     import os
     DEVNULL = open(os.devnull, 'wb')
-# uncomment this to get full output
+# uncomment the following line to get full output
 #DEVNULL=None
 
+###############################################################################
+# Process a video
+###############################################################################
 def make_gif(filename):
     if filename not in videoconf:
         logger.error("no config found for file: '{0}'".format(filename))
@@ -72,7 +78,8 @@ def make_gif(filename):
                               ] + 
                               frames +
                               ['-coalesce',
-                               '-layers', 'OptimizeTransparency',
+                               '-layers', 'OptimizeTransparency', 
+                               '+dither',   # cut file size
                                "../" + conf['output']
                               ], stdout=DEVNULL, stderr=DEVNULL)
         logger.info('output file created: {0}'.format("tmp/" + conf['output']))
@@ -84,6 +91,9 @@ def make_gif(filename):
 
     os.chdir("../../")
 
+###############################################################################
+# main 
+###############################################################################
 if __name__ == "__main__":
     if len(sys.argv) == 1:
         logger.info("make GIFs for all video files")
