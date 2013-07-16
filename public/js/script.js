@@ -30,6 +30,18 @@ $(document).ready(function(){
     function(){
       $(this).attr("src", "assets/buttons/chris_c/chris_c.png");
   });
+ $("#b06").hover(function(){
+      $(this).attr("src", "assets/buttons/robert/robert_b.gif");
+    },
+    function(){
+      $(this).attr("src", "assets/buttons/robert/robert.png");
+  });
+ $("#b07").hover(function(){
+      $(this).attr("src", "assets/buttons/sarah/sarah_b.gif");
+    },
+    function(){
+      $(this).attr("src", "assets/buttons/sarah/sarah.png");
+  });
 
 
 
