@@ -17,14 +17,23 @@ h1 {
   z-index:1;
 }
 
-#portraits li {
+.portraits li {
   display:inline;
   float:left;
   position:relative;
 }
-#portraits img {
+.portraits img {
   display:block;
   width:100%;
+}
+.tn01{
+    display:block;
+    width:720px;
+    height:480px;
+    background:url('http://assets.sixtyoneminuteportraits.com/andrew/andrew.png');
+}
+.tn01:hover {
+    background:url('http://assets.sixtyoneminuteportraits.com/andrew/andrew_b.gif');
 }
 
 @media screen and (min-width:1024px) {
