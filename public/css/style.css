@@ -33,6 +33,9 @@ li:hover .img_a {
 li:hover .img_b {
   display:block;
 }
+.portraits {
+  overflow: hidden;
+}
 .portraits .name {
    display: none;
    position: absolute;
