@@ -22,24 +22,18 @@ h1 {
   position:relative;
 }
 .portraits img {
-  display:block;
   width:100%;
 }
-.portraits time {
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
+.img_b {
   display:none;
-  padding:10px;
-  color:#fff;
-  background:black;
-  background:rgba(0,0,0,0.8);
-  visibility:none;
 }
-.portraits time {
-  visibility:visible;
+li:hover .img_a {
+  display:none;
 }
+li:hover .img_b {
+  display:block;
+}
+
 @media screen and (min-width:1024px) {
   li {
     width:20%;
