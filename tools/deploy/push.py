@@ -2,6 +2,7 @@ import os
 import sys
 import optparse
 import logging
+import json
 
 import boto
 from boto.s3.key import Key
@@ -27,8 +28,18 @@ def upload_files(awskey, awssecret, bucket, path):
 		k.set_contents_from_filename(f)
 		k.set_acl('public-read')
 
-def update_manifest(conn, bucket):
-	pass
+	logging.info("Updating manifest")
+	update_manifest(b, k)
+
+def update_manifest(bucket, k):
+	manifest = []
+	for f in bucket.list():
+		manifest.append(f.name)
+	k.key = "manifest.json"
+	k.set_contents_from_string(json.dumps(manifest), 
+							  {"Content-Type": "application/json"})
+	k.set_acl('public-read')
+
 
 def get_files(path):
 	to_upload = []
