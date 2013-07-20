@@ -33,36 +33,6 @@ li:hover .img_a {
 li:hover .img_b {
   display:block;
 }
-.portraits {
-  overflow: hidden;
-}
-.portraits .name {
-   display: none;
-   position: absolute;
-   bottom: 0;
-   background:rgba(0,0,0,0.88);
-   width: 100%;
-   padding: 10px 0;
-   text-align: center;
-   color: #fffafa;
-   line-height: 14px;
-   font-family: helvetica;
- }
- .portraits:hover .name {
-   -webkit-animation-duration: 1s;
-   -webkit-animation-name: slidein;
-   display: block;
- }
- @-webkit-keyframes slidein {
-   from {
-     bottom: -24px;
-   }
-
-   to {
-     bottom: 0;
-   }
- }
-
 @media screen and (min-width:1024px) {
   li {
     width:20%;
