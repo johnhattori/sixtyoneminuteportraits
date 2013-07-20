@@ -33,22 +33,58 @@ li:hover .img_a {
 li:hover .img_b {
   display:block;
 }
-@media screen and (min-width:1024px) {
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
   li {
     width:20%;
   }
 }
-@media screen and (max-width:1024px) {
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
   li {
     width:25%;
   }
 }
-@media screen and (max-width:600px) {
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   li {
     width:50%;
   }
 }
-@media screen and (max-width:240px) {
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  li {
+    width:50%;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  li {
+    width: 50%;
+  }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  li {
+    width:100%;
+  }
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  li {
+    width:100%;
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-device-width:320px) and (max-device-width : 480px) {
+  li {
+    width:100%;
+  }
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
   li {
     width:100%;
   }
