@@ -32,7 +32,7 @@ li:hover .img_a {
   display:none;
 }
 li:hover .img_b {
-  display:block;
+  display:inline;
 }
 @media screen and (min-width:1024px) {
   li {
