@@ -1,11 +1,11 @@
 body {
   background-color:black;
   padding-top:50px;
+  font-family: helvetica;
 }
 h1 {
   background:#111;
   color:#fff;
-  font-family: helvetica;
   font-size:24px;
   height:50px;
   line-height:50px;
@@ -19,27 +19,37 @@ h1 {
 .portraits li {
   display:inline;
   float:left;
+  overflow: hidden;
   position:relative;
   margin: 0;
+}
+.portraits li div {
+  opacity: 0;
+  transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  position: absolute;
+  bottom: -20px;
+  background: black;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  line-height: 20px;
 }
 .portraits img {
   width:100%;
 }
-.img_b {
-  display:none;
-}
-li:hover .img_a {
-  display:none;
-}
-li:hover .img_b {
-  display:inline;
+
+li:hover div {
+  bottom: 0;
+  opacity: .6;
 }
 @media screen and (min-width:1024px) {
   li {
     width:20%;
   }
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
   li {
     width:25%;
   }
