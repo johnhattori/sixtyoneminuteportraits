@@ -25,8 +25,8 @@ h1 {
 }
 .portraits li div {
   opacity: 0;
-  transition: all .5s linear;
-  -webkit-transition: all .5s linear;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
   position: absolute;
   bottom: -20px;
   background: black;
