@@ -25,16 +25,16 @@ h1 {
 }
 .portraits li div {
   opacity: 0;
-  transition: all .3s linear;
-  -webkit-transition: all .3s linear;
+  transition: all .001s linear;
+  -webkit-transition: all .001s linear;
   position: absolute;
-  bottom: -20px;
+  bottom: -10px;
   background: black;
   width: 100%;
   padding: 10px 0;
   text-align: center;
   color: white;
-  line-height: 20px;
+  line-height: 10px;
 }
 .portraits img {
   width:100%;
