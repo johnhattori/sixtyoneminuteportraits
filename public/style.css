@@ -29,7 +29,7 @@ h1 {
   -webkit-transition: all .001s linear;
   position: absolute;
   bottom: -10px;
-  background: black;
+  background: rgba(0,0,0,0.6);
   width: 100%;
   padding: 10px 0;
   text-align: center;
@@ -42,7 +42,7 @@ h1 {
 
 li:hover div {
   bottom: 0;
-  opacity: .6;
+  opacity: 1;
 }
 @media screen and (min-width:1024px) {
   li {
