@@ -8,3 +8,13 @@ $(document).ready(function() {
 		}
 	});
 });
+$(".fancybox").fancybox({
+    helpers : {
+        overlay : {
+            css : {
+                'background' : 'rgba(200,200,200, 0.96)'
+            }
+        }
+    }
+});
+
