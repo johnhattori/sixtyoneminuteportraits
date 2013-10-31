@@ -62,16 +62,13 @@ var Froogaloop = (function(){
          * @param callback (Function): Function that should be called when the event fires.
          */
         addEvent: function(eventName, callback) {
-            console.log("addEvent");
             if (!this.element) {
                 return false;
             }
-            console.log("adding");
             var self = this,
                 element = self.element,
                 target_id = element.id !== '' ? element.id : null;
 
-            console.log("eventName, callback, target_id: ", eventName, callback, target_id);
             storeCallback(eventName, callback, target_id);
 
             // The ready event is not registered via postMessage. It fires regardless.
@@ -140,7 +137,6 @@ var Froogaloop = (function(){
      * via window.postMessage.
      */
     function onMessageReceived(event) {
-        console.log("onMessageReceived: ", event);
         var data, method;
 
         try {
@@ -156,14 +152,10 @@ var Froogaloop = (function(){
         }
 
         // Handles messages from moogaloop only
-        //if (event.origin != playerDomain) {
-        //    console.log("playerDomain: " + playerDomain);
-        //    console.log("event.origin: " + event.origin);
-        //    return false;
-        //}
-
-        console.log("target_id: " + target_id);
-        console.log("data.player_id: " + data.player_id);
+        if (event.origin != playerDomain) {
+            // HACK for fancybox: ignore domain name mismatch
+            //return false; 
+        }
 
         var value = data.value,
             eventData = data.data,
@@ -174,7 +166,6 @@ var Froogaloop = (function(){
 
 
         if (!callback) {
-            console.log("no callback")
             return false;
         }
 
@@ -206,7 +197,7 @@ var Froogaloop = (function(){
      * id.
      */
     function storeCallback(eventName, callback, target_id) {
-        target_id = null;
+        target_id = null; // HACK for fancybox: don't store the iframe id as the target_id
         if (target_id) {
             if (!eventCallbacks[target_id]) {
                 eventCallbacks[target_id] = {};
@@ -226,9 +217,6 @@ var Froogaloop = (function(){
             return eventCallbacks[target_id][eventName];
         }
         else {
-            console.log("eventCallbacks[eventName]" + eventCallbacks[eventName])
-            console.log("eventCallbacks " + JSON.stringify(eventCallbacks, null, 4));
-            console.log("eventName " + eventName)
             return eventCallbacks[eventName];
         }
     }
