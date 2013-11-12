@@ -16,10 +16,9 @@ $(document).ready(function() {
 	}
 
 	$.getJSON("portraits.json", function( data ) {
-		$(".portraits").empty().append("<ul></ul>"); 
+		$(".portraits").empty().append("<ul></ul>");
 
-	  	$.each( data, function( key, val ) {
-	    	portrait = "<li>"
+	  	$.each( data, function( key, val ) {	    	portrait = "<li>"
 	    	portrait += "<a href='" + val["video"] + "' class='fancybox-media'>"
 	    	portrait += "<img class='img_a' src='" + val["thumnail"] + "' alt='" + val["name"] + "'>"
 	    	portrait += "<div>" + val["name"] + "</div>"
