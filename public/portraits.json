@@ -1,70 +1,70 @@
 [
 	{ "name": "Andrew McKinley",
 		"video": "http://vimeo.com/71450814",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/andrew.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/andrew.jpg"
 	},
 	{ "name": "Alice Gould",
 		"video": "http://vimeo.com/70736519",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/alice.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/alice.jpg"
 	},
 	{ "name": "Alexis Georgopoulos",
 		"video": "http://vimeo.com/70736518",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/alexis.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/alexis.jpg"
 	},
 	{ "name": "Amanda Eicher",
 		"video": "http://vimeo.com/70736520",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/amanda.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/amanda.jpg"
 	},
 	{ "name": "Chris Corales",
 		"video": "http://vimeo.com/70736521",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/chris_c.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/chris_c.jpg"
 	},
 	{ "name": "Sarah Glanville",
 		"video": "http://vimeo.com/72066607",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/sarah.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/sarah.jpg"
 	},
 	{ "name": "Robert Arnold",
 		"video": "http://vimeo.com/70736523",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/robert.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/robert.jpg"
 	},
 	{ "name": "Amy Franceschini",
-		"video": "http://vimeo.com/70736520",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/amy_f.jpg"
+		"video": "http://vimeo.com/72079747",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/amy_f.jpg"
 	},
 	{ "name": "Chris Johanson",
 		"video": "http://vimeo.com/72079749",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/chris_j.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/chris_j.jpg"
 	},
 	{ "name": "Clare Purcell",
 		"video": "http://vimeo.com/72079748",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/clare.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/clare.jpg"
 	},
 	{ "name": "Aaron Noble",
 		"video": "http://vimeo.com/72785324",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/aaron_n.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/aaron_n.jpg"
 	},
 	{ "name": "Amy Rathbone",
 		"video": "http://vimeo.com/72785325",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/amyr.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/amyr.jpg"
 	},
 	{ "name": "Emily Prince",
 		"video": "http://vimeo.com/72785327",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/emily.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/emily.jpg"
 	},
 	{ "name": "Pat Rush",
 		"video": "http://vimeo.com/72785329",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/pat.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/pat.jpg"
 	},
 	{ "name": "Rob Mueller",
 		"video": "http://vimeo.com/72785331",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/rob.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rob.jpg"
 	},
 	{ "name": "Sean Kennerly",
 		"video": "http://vimeo.com/72786786",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/sean.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/sean.jpg"
 	},
 	{ "name": "Veronica De Jesus",
 		"video": "http://vimeo.com/72786787",
-		"thumnail": "http://assets.sixtyoneminuteportraits.com/veronica.jpg"
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/veronica.jpg"
   }
 ]
