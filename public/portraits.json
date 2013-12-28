@@ -71,6 +71,10 @@
 		"video": "http://vimeo.com/73600170",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/beards.jpg"
 	},
+	{ "name": "Joe Armin",
+		"video": "http://vimeo.com/72312089",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/joe_a.jpg"
+	},
 	{ "name": "Gretchen Lemaitre",
 		"video": "http://vimeo.com/73600173",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/gretchen.jpg"
@@ -83,17 +87,157 @@
 		"video": "http://vimeo.com/73599398",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/maggie.jpg"
 	},
+	{ "name": "James Goode",
+		"video": "http://vimeo.com/82810384",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/james_g.jpg"
+	},
 	{ "name": "Markie P",
 		"video": "http://vimeo.com/73599760",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/markie.jpg"
+	},
+	{ "name": "Brion Nuda Rosch",
+		"video": "http://vimeo.com/80162634",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/brion.jpg"
 	},
 	{ "name": "Rebecca Miller",
 		"video": "http://vimeo.com/73599885",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rebecca.jpg"
 	},
-	{ "name": "Scott",
-		"video": "http://vimeo.com/73600087",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/scott.jpg"
+	{ "name": "Sarah Bostwick",
+		"video": "http://vimeo.com/82804214",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/bostwick.jpg"
+	},
+	{ "name": "Brent",
+		"video": "http://vimeo.com/73600582",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/brent.jpg"
+	},
+	{ "name": "Reverend Joe",
+		"video": "http://vimeo.com/74576040",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rev_joe.jpg"
+	},
+	{ "name": "Eleanor Harwood",
+		"video": "http://vimeo.com/73601592",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/eleanor.jpg"
+	},
+	{ "name": "Kerry Latala",
+		"video": "http://vimeo.com/74576041",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/kerry.jpg"
+	},
+	{ "name": "Shaun O'Dell",
+		"video": "http://vimeo.com/74576908",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/shaun.jpg"
+	},
+	{ "name": "Swan",
+		"video": "http://vimeo.com/73601041",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/swan.jpg"
+	},
+	{ "name": "David Benzler",
+		"video": "http://vimeo.com/74577069",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/benzler.jpg"
+	},
+	{ "name": "Donal Mosher",
+		"video": "http://vimeo.com/74577070",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/donal.jpg"
+	},
+	{ "name": "Heather",
+		"video": "http://vimeo.com/74577848",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/heather.jpg"
+	},
+	{ "name": "Jaina",
+		"video": "http://vimeo.com/75188159",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/jaina.jpg"
+	},
+	{ "name": "Chris Kaup",
+		"video": "http://vimeo.com/75188161",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/kaup.jpg"
+	},
+	{ "name": "Marit Brook-Kothlow",
+		"video": "http://vimeo.com/75188160",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/marit.jpg"
+	},
+	{ "name": "Carrie",
+		"video": "http://vimeo.com/75188504",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/carrie.jpg"
+	},
+	{ "name": "Jamie Berger",
+		"video": "http://vimeo.com/75188505",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/jamie.jpg"
+	},
+	{ "name": "Kristin Sobditch",
+		"video": "http://vimeo.com/75188503",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/kristin.jpg"
+	},
+	{ "name": "Lettie",
+		"video": "http://vimeo.com/75188864",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/lettie.jpg"
+	},
+	{ "name": "Philip Silverstein",
+		"video": "http://vimeo.com/75188862",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/philip.jpg"
+	},
+	{ "name": "Sonny Smith",
+		"video": "http://vimeo.com/75188865",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/sonny.jpg"
+	},
+	{ "name": "Sijn",
+		"video": "http://vimeo.com/75188863",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/stijn.jpg"
+	},
+	{ "name": "Brion Nuda-Rosch",
+		"video": "http://vimeo.com/80162634",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/brion.jpg"
+	},
+	{ "name": "Christian Maychack",
+		"video": "http://vimeo.com/80162864",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/christian.jpg"
+	},
+	{ "name": "Chris Duncan",
+		"video": "http://vimeo.com/80162866",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/duncan.jpg"
+	},
+	{ "name": "Jenny DuPont",
+		"video": "http://vimeo.com/82804040",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/jenny.jpg"
+	},
+	{ "name": "Kal Spelletich",
+		"video": "http://vimeo.com/80162868",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/kal.jpg"
+	},
+	{ "name": "Phil Ross",
+		"video": "http://vimeo.com/80162870",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/ross.jpg"
+	},
+	{ "name": "Wendy Farina",
+		"video": "http://vimeo.com/80964860",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/wendy.jpg"
+	},
+	{ "name": "Elizabeth",
+		"video": "http://vimeo.com/80964861",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/elizabeth.jpg"
+	},
+	{ "name": "Leo",
+		"video": "http://vimeo.com/80964862",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/leo.jpg"
+	},
+	{ "name": "Mitch Manitou",
+		"video": "http://vimeo.com/80964863",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/mitch.jpg"
+	},
+	{ "name": "Peter Herrmann",
+		"video": "http://vimeo.com/80964864",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/peter.jpg"
+	},
+	{ "name": "Rachael",
+		"video": "http://vimeo.com/82807618",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rachael.jpg"
+	},
+	{ "name": "Andrew Rush",
+		"video": "http://vimeo.com/81769643",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rush.jpg"
+	},
+	{ "name": "Tomo",
+		"video": "http://vimeo.com/81769644",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/tomo.jpg"
 	}
 
 ]
