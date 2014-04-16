@@ -39,6 +39,14 @@
 		"video": "http://vimeo.com/72079748",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/clare.jpg"
 	},
+	{ "name": "Colter Jacobsen",
+		"video": "https://vimeo.com/84111332",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/colter.jpg"
+	},
+	{ "name": "Corbi",
+		"video": "https://vimeo.com/92157709",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/corbi.jpg"
+	},
 	{ "name": "Aaron Noble",
 		"video": "http://vimeo.com/72785324",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/aaron_n.jpg"
@@ -99,10 +107,6 @@
 		"video": "http://vimeo.com/80162634",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/brion.jpg"
 	},
-	{ "name": "Rebecca Miller",
-		"video": "http://vimeo.com/73599885",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rebecca.jpg"
-	},
 	{ "name": "Sarah Bostwick",
 		"video": "http://vimeo.com/83951818",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/bostwick.jpg"
@@ -139,6 +143,10 @@
 		"video": "http://vimeo.com/74577070",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/donal.jpg"
 	},
+	{ "name": "Felix Macnee",
+		"video": "https://vimeo.com/84111335",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/felix.jpg"
+	},
 	{ "name": "Heather",
 		"video": "http://vimeo.com/74577848",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/heather.jpg"
@@ -167,6 +175,10 @@
 		"video": "http://vimeo.com/75188503",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/kristin.jpg"
 	},
+	{ "name": "Tomo",
+		"video": "http://vimeo.com/81769644",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/tomo.jpg"
+	},
 	{ "name": "Lettie",
 		"video": "http://vimeo.com/75188864",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/lettie.jpg"
@@ -182,10 +194,6 @@
 	{ "name": "Sijn",
 		"video": "http://vimeo.com/75188863",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/stijn.jpg"
-	},
-	{ "name": "Brion Nuda-Rosch",
-		"video": "http://vimeo.com/80162634",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/brion.jpg"
 	},
 	{ "name": "Christian Maychack",
 		"video": "http://vimeo.com/80162864",
@@ -207,37 +215,28 @@
 		"video": "http://vimeo.com/80162870",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/ross.jpg"
 	},
-	{ "name": "Wendy Farina",
-		"video": "http://vimeo.com/80964860",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/wendy.jpg"
-	},
-	{ "name": "Elizabeth",
-		"video": "http://vimeo.com/80964861",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/elizabeth.jpg"
-	},
-	{ "name": "Leo",
-		"video": "http://vimeo.com/80964862",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/leo.jpg"
+	{ "name": "Scott",
+		"video": "https://vimeo.com/84111334",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/scott.jpg"
 	},
 	{ "name": "Mitch Manitou",
 		"video": "http://vimeo.com/80964863",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/mitch.jpg"
 	},
-	{ "name": "Peter Herrmann",
-		"video": "http://vimeo.com/80964864",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/peter.jpg"
-	},
-	{ "name": "Rachael",
-		"video": "http://vimeo.com/82807618",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rachael.jpg"
-	},
 	{ "name": "Andrew Rush",
 		"video": "http://vimeo.com/81769643",
 		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rush.jpg"
 	},
-	{ "name": "Tomo",
-		"video": "http://vimeo.com/81769644",
-		"thumbnail": "http://assets.sixtyoneminuteportraits.com/tomo.jpg"
+	{ "name": "Peter Herrmann",
+		"video": "http://vimeo.com/80964864",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/peter.jpg"
+	},
+	{ "name": "Leo",
+		"video": "http://vimeo.com/80964862",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/leo.jpg"
+	},
+	{ "name": "Rachael",
+		"video": "http://vimeo.com/82807618",
+		"thumbnail": "http://assets.sixtyoneminuteportraits.com/rachael.jpg"
 	}
-
 ]
