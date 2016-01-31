@@ -7,6 +7,14 @@ import json
 import boto
 from boto.s3.key import Key
 
+import ssl
+
+# Monkey patch to avoid:
+# ssl.CertificateError: hostname 'my.bucket.s3.amazonaws.com'
+# doesn't match either of '*.s3.amazonaws.com', 's3.amazonaws.com'
+if hasattr(ssl, '_create_unverified_context'):
+   ssl._create_default_https_context = ssl._create_unverified_context
+
 logging.basicConfig(format='%(levelname)s: %(message)s',
 					level=logging.INFO)
 
@@ -36,7 +44,7 @@ def update_manifest(bucket, k):
 	for f in bucket.list():
 		manifest.append(f.name)
 	k.key = "manifest.json"
-	k.set_contents_from_string(json.dumps(manifest), 
+	k.set_contents_from_string(json.dumps(manifest),
 							  {"Content-Type": "application/json"})
 	k.set_acl('public-read')
 
@@ -56,13 +64,13 @@ def main():
         description='Push files on Amazon S3',
         usage='%prog -k [access key id] -s [secret access key] ' + \
             '-b [bucketname] -p [path] -m [mode]')
-    optparser.add_option('--aws_access_key_id', '-k', dest='awskey', 
+    optparser.add_option('--aws_access_key_id', '-k', dest='awskey',
         default=os.getenv('AWS_ACCESS_KEY_ID'))
-    optparser.add_option('--aws_secret_access_key', '-s', dest='awssecret', 
+    optparser.add_option('--aws_secret_access_key', '-s', dest='awssecret',
         default=os.getenv('AWS_SECRET_ACCESS_KEY'))
     optparser.add_option('--bucket', '-b', dest='bucket')
     optparser.add_option('--path', '-p', dest='path')
-    
+
     options, arguments = optparser.parse_args()
 
     if options.bucket and options.awskey and options.awssecret and options.path:
